@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+
+            <div class="logo">
+                <img 
+                    id="header-img" 
+                    src="https://www.mantraguitar.com/public/images/logo-01.png" 
+                    alt=""/>
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#media"  class="nav-link">Media</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <div class="container-form">
+            <section id="email-section">
+                <h2>Enter your email for more information</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input 
+                        name="email"
+                        id="email"    
+                        type="email"
+                        placeholder="Enter your email address"
+                        required
+                    />
+                    <input 
+                        type="submit" 
+                        value="Get Started"
+                        id="submit"
+                        class="btn"
+                    />
+                </form>
+            </section>
+        </div>
+
+        <div class="container-grid">
+            <section id="features">
+                <h1>Features</h1>
+
+                <div class="grid">
+                    <div class="desc">
+                        
+                        <h2>Taylor CD300 Acoustic Guitar</h2>
+                        <img
+                            id="img-guitar" 
+                            src="https://www.long-mcquade.com/files/7074/lg_f8c82d803f4cc808ebaca296b2abd3cc.jpg" 
+                            alt="">
+                        <p>The launchpad for our Builder’s Edition collection, our game-changing new interior bracing scheme 
+                            unlocks new musical possibilities and boundary-pushing design choices in the world of acoustic guitars.</p>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <div class="desc">
+                        <h2>Fender Telecaster American Deluxe Electric Guitar</h2>
+                        <img
+                            id="img-guitar" 
+                            src="https://www.long-mcquade.com/files/127250/fcc9a277176402bb55a47ba4ddc29acb." 
+                            alt="">
+                        <p>Enter the Spring Sound Sweepstakes for a chance to win a Taylor 327e, a beautiful, 
+                            all-solid-wood round-shoulder dreadnought featuring Taylor's V‑Class™ bracing. No purchase necessary to enter or win.</p>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <div class="desc">
+                        <h2>Lakland CF-20 Electric Bass</h2>
+                        <img
+                            id="img-guitar" 
+                            src="https://cosmomusic.ca/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/F/S/FSGSLAK5560MNAT_0_1.jpg" 
+                            alt="">
+                        <p>Our CF-20 new model lineup includes four new Builder’s Edition guitars, 
+                            the return of the Grand Symphony and the revoiced Grand Orchestra.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="media">
+                <h1>Media</h1>
+                <iframe 
+                id="video"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/gQHOPaLzgqw" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            </section>
+
+            <section id="pricing">
+                <h1>Price</h1>
+                <div class="product" id="acoustic">
+                    <div class="level">Taylor CD300 Acoustic Guitar</div>
+                    <h3>$ 600</h3>
+                    <ol>
+                        <li>Scale Length : 24-7/8"</li>
+                        <li>Bracing: V-Class</li>
+                        <li>Pickguard: West African Crelicam</li>
+                        <li>Tuners: Gotoh</li>
+                    </ol>
+                    <button class="btn2">Select</button>
+                </div>
+
+                <div class="product" id="electric">
+                    <div class="level">Fender Telecaster Deluxe Electric Guitar</div>
+                    <h3>$ 700</h3>
+                    <ol>
+                        <li>Scale Length : 24-7/8"</li>
+                        <li>Bracing: V-Class</li>
+                        <li>Pickguard: Turq Nut/Micarta Saddle</li>
+                        <li>Tuners: Gotoh</li>
+                    </ol>
+                    <button class="btn2">Select</button>
+                </div>
+
+                <div class="product" id="bass">
+                    <div class="level">Lakland CF-20 Electric Bass</div>
+                    <h3>$ 400</h3>
+                    <ol>
+                        <li>Scale Length : 24-1/2"</li>
+                        <li>Bracing: X-Bracing</li>
+                        <li>Pickguard: Tortoise with those</li>
+                        <li>Tuners: Taylor Nickel 3"</li>
+                    </ol>
+                    <button class="btn2">Select</button>
+                </div>
+            </section>
+
+            <footer>
+                <ul>
+                    <li><a href="#" class="nav-link">Privacy</a></li>
+                    <li><a href="#"class="nav-link">Terms</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+                <span>Copyright 2020, Original Guitars</span>
+            </footer>
+
+        </div>
+
+    </div>
+</body>
+</html>

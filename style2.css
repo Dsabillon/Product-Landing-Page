@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Cabin', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+#page-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+ /**HEADER **/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(204, 204, 204);
+  border-bottom: 5px rgb(81, 86, 88) solid;
+}
+
+#header-img{
+  width: 80px;
+}
+
+@media (max-width:650px){
+  #header-img{
+    width: 70px;
+  }
+}
+
+.logo{
+  width: 50%;
+}
+
+#nav-bar > ul {
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: row;
+  }
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/**FORM**/
+.container-form{
+  display: flex;
+  margin-top: 80px;
+  height: 70%;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(63, 100, 114);
+}
+
+
+
+#email-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  
+}
+
+#email-section h2{
+  color: white;
+  size: 15vw;
+  margin: 2px;
+}
+
+
+
+#form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+  
+}
+
+#form input[type="email"] {
+  width: 700px;
+  height: 50%;
+  max-width: 275px;
+  padding: 10px;
+  
+}
+
+#form input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px;
+  border: 0;
+  background-color: #f1c40f;
+  font-weight: bold;
+}
+
+/**FEATURES*/
+.container-grid{
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+#features{
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(231, 228, 218);
+}
+
+#features h1{
+  font-size: 2rem;
+  margin-top: 20px;
+  color:rgb(63, 100, 114) ;
+  text-align: center;
+
+}
+
+.grid{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin: 2%;
+  text-align: center;
+}
+
+#img-guitar{
+  width: 70%;
+}
+
+
+
+/**MEDIA**/
+
+#media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95%;
+}
+
+#media h1{
+  font-size: 2rem;
+  margin: 20px;
+  color:rgb(63, 100, 114) ;
+  text-align: center;
+}
+
+
+
+/**PRICE**/
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 228, 218);
+  width: 100%;
+}
+
+#pricing h1{
+  font-size: 2rem;
+  margin: 20px;
+  color:rgb(63, 100, 114) ;
+  text-align: center;
+
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+
+
+.level {
+  color:white;
+  font-size: 1.2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color:rgb(63, 100, 114);
+  
+}
+
+.product > h3 {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.product > ol {
+  margin: 15px;
+
+}
+
+.product > ol > li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.btn2 {
+  border: 0;
+  padding: 4%;
+  margin: 15px;
+  width: 60%;
+  background-color: #f1c40f;
+  font-weight: bold;
+  color: #000;
+}
+
+
+/** FOOTER **/
+footer{
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer ul li{
+  padding: 0 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer span{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.9em;
+  color: #444;
+}
+
+#email{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
